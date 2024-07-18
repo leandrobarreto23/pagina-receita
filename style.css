@@ -25,17 +25,18 @@ body {
 }
 
 #page {
-  margin: 4.8rem auto;
+  margin: 4.8rem auto 2.8rem;
   max-width: 80rem;
   padding: 2.4rem;
-  background-color: var(--text-color-on-bg);
+  background-color: var(--surface-color);
   border-radius: 2.4rem;
+  
+  & img {
+    width: 100%;
+    border-radius: 1.6rem;
+  }
 }
 
-img {
-  width: 100%;
-  border-radius: 1.6rem;
-}
 
 main {
   padding: 2.4rem;
@@ -70,4 +71,14 @@ h1, h2 {
 
 #preparation p + p {
   margin-top: 1.6rem;
+}
+
+footer {
+  text-align: center;
+  padding-bottom: 4.8rem;
+  color: var(--text-color-on-bg);
+
+  & img {
+    vertical-align: middle;
+  }
 }
